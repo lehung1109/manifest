@@ -21,7 +21,6 @@ export default defineConfig({
     rollupOptions: {
       input: [
         'index.html',
-        'src/assets/scripts/sw.ts'
       ],
       output: {
         entryFileNames,

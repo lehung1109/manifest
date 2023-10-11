@@ -9,12 +9,14 @@
     "start": "npm run dev",
     "build": "vite build",
     "preview": "vite preview --port 8888",
-    "dev": "concurrently --kill-others \"vite build --watch\" \"npm run preview\" \"ts-node --esm server.ts --watch\" ",
+    "dev": "concurrently --kill-others \"vite build --watch\" \"npm run preview\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.8.4",
+    "concurrently": "^8.2.1",
     "typescript": "^5.2.2",
     "vite": "^4.4.11"
   }
