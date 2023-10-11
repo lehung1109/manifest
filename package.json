@@ -1,0 +1,21 @@
+{
+  "name": "@heroitvn/manifest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "types": "types.d.ts",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "vite build",
+    "preview": "vite preview --port 8888",
+    "dev": "concurrently --kill-others \"vite build --watch\" \"npm run preview\" \"ts-node --esm server.ts --watch\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11"
+  }
+}
