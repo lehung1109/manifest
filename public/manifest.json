@@ -36,18 +36,18 @@
   "theme_color": "#3367D6",
   "shortcuts": [
     {
-      "name": "How's weather today?",
-      "short_name": "Today",
-      "description": "View weather information for today",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "/assets/images/today.png", "sizes": "192x192" }]
+      "name": "shortcut 1",
+      "short_name": "shortcut 1",
+      "description": "shortcut 1 description",
+      "url": "/shortcut_1",
+      "icons": [{ "src": "/assets/images/192-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "How's weather tomorrow?",
-      "short_name": "Tomorrow",
-      "description": "View weather information for tomorrow",
-      "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/assets/images/tomorrow.png", "sizes": "192x192" }]
+      "name": "shortcut 2",
+      "short_name": "shortcut 2",
+      "description": "shortcut 2 description",
+      "url": "/shortcut_2",
+      "icons": [{ "src": "/assets/images/192-192.png", "sizes": "192x192" }]
     }
   ],
   "description": "Demo manifest",
