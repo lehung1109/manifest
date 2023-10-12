@@ -4,7 +4,7 @@ Your site can be install as a normal app
 
 ## Demo
 
-[Demo](https://lehung1109.github.io/manifest-pwa/dist)
+[Demo](https://manifest-pwa.vercel.app/)
 
 ## Usage
 
